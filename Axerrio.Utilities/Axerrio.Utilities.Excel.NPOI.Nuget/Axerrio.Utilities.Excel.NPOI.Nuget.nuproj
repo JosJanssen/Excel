@@ -10,6 +10,9 @@
       <Platform>AnyCPU</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Axerrio.Utilities.Excel\Axerrio.Utilities.Excel.NPOI.csproj" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>af66c8e5-a4ff-4d15-bc8e-8629d3a5f136</ProjectGuid>
   </PropertyGroup>
