@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|AnyCPU">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|AnyCPU">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>3b4654d6-411c-42b2-9361-d4ff5f2c5bba</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NuProjPath Condition=" '$(NuProjPath)' == '' ">$(MSBuildExtensionsPath)\NuProj\</NuProjPath>
+  </PropertyGroup>
+  <Import Project="$(NuProjPath)\NuProj.props" Condition="Exists('$(NuProjPath)\NuProj.props')" />
+  <PropertyGroup Label="Configuration">
+    <Id>Axerrio.Utilities</Id>
+    <Version>17.1.0.2</Version>
+    <Title>Axerrio Utilities</Title>
+    <Authors>josj</Authors>
+    <Owners>Axerrio</Owners>
+    <Summary>Axerrio Utilities</Summary>
+    <Description>Axerrio Utilities</Description>
+    <ReleaseNotes>
+    </ReleaseNotes>
+    <ProjectUrl>
+    </ProjectUrl>
+    <LicenseUrl>
+    </LicenseUrl>
+    <Copyright>Copyright © Axerrio</Copyright>
+    <Tags>Axerrio Utilities</Tags>
+    <IconUrl>http://www.axerrio.com/portals/3/foot_img1.png</IconUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Axerrio.Utilities\Axerrio.Utilities.csproj" />
+  </ItemGroup>
+  <Import Project="$(NuProjPath)\NuProj.targets" />
+</Project>
